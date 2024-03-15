@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 100%;
+width: 100%;
+}
+.first{
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    border: 3px dotted rgb(90, 15, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.f{
+    position: relative;
+    left: 321px;
+    top: auto;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(84, 244, 226);
+    border-radius: 50%;
+    animation: first 8s infinite linear normal;
+
+}
+@keyframes first {
+    from {
+        transform: rotate(0deg) translateX(300px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(300px) rotate(-360deg);
+    }
+    
+}
+.second{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 3px dotted rgb(90, 15, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s{
+    position: relative;
+    left: 219px;
+    top: 7px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(153, 84, 244);
+    border-radius: 50%;
+    animation: second 7s infinite linear normal;
+}
+@keyframes second {
+    from {
+        transform: rotate(0deg) translateX(200px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(200px) rotate(-360deg);
+    }
+    
+}
+.third{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 3px dotted rgb(90, 15, 105);
+}
+.t{
+    position: relative;
+    left: 142px;
+    top: 20px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(218, 135, 235);
+    border-radius: 50%;
+    animation: third 6s infinite linear normal;
+}
+@keyframes third {
+    from {
+        transform: rotate(0deg) translateX(120px) rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg) translateX(120px) rotate(-360deg);
+    }
+    
+}
